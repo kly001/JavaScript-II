@@ -5,6 +5,8 @@ const favFood = "pizza";
     return (`My favorite food is ${"favFood"}.`);
   }
 console.log(favFood);
+
+
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
   // Return a function that when invoked increments and returns a counter variable.
