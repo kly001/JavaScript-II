@@ -58,10 +58,8 @@ multiplyNums(7,8,product);
   function contains(item, list, cb) {
 //    // contains checks if an item is present inside of the given array/list.
 //    // Pass true to the callback if it is, otherwise pass false.
-//    for(i=0; i<items.length; i++){
-//      if 
-//    // }
   }
+
 
 /* STRETCH PROBLEM */
 
