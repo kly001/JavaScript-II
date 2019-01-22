@@ -1,11 +1,25 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
-
-
+const favFood = "pizza";
+  function declare() {
+    return (`My favorite food is ${"favFood"}.`);
+  }
+console.log(favFood);
 // ==== Challenge 2: Create a counter function ====
 const counter = () => {
   // Return a function that when invoked increments and returns a counter variable.
+  let count = 0;
+  return function() {
+    count+=(8-6*2);
+    return count;
+  }
 };
+ newCounter = counter();
+console.log(newCounter());
+console.log(newCounter());
+console.log(newCounter());
+
+
 // Example usage: const newCounter = counter();
 // newCounter(); // 1
 // newCounter(); // 2
