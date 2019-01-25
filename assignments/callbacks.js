@@ -59,17 +59,7 @@ multiplyNums(7,8,product);
 
 //    // contains checks if an item is present inside of the given array/list.
 //    // Pass true to the callback if it is, otherwise pass false.
-for(i=0; i,list.length; i++) {
-  if(list[i]===item) {
-    return cb(true);
   }
-}
-    return cb(false);
-};
-contains("banana",items, function(result) {
-  console.log(result);
-});
-
 
 /* STRETCH PROBLEM */
 
